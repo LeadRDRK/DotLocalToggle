@@ -12,9 +12,9 @@ FILETYPE 0x1
     {
         BLOCK "000004b0"
         {
-            VALUE "ProductName", "Dot Local Toggle"
+            VALUE "ProductName", "DotLocal Toggle"
             VALUE "FileVersion", VERSION_INFO_STR
-            VALUE "FileDescription", "Dot Local Toggle"
+            VALUE "FileDescription", "DotLocal Toggle"
             VALUE "ProductVersion", VERSION_INFO_STR
         }
     }
