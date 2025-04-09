@@ -1,0 +1,28 @@
+#include <windows.h>
+
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+
+1 VERSIONINFO
+FILEVERSION VERSION_INFO_VER
+PRODUCTVERSION VERSION_INFO_VER
+FILEOS 0x40004
+FILETYPE 0x1
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "000004b0"
+        {
+            VALUE "ProductName", "Dot Local Toggle"
+            VALUE "FileVersion", VERSION_INFO_STR
+            VALUE "FileDescription", "Dot Local Toggle"
+            VALUE "ProductVersion", VERSION_INFO_STR
+        }
+    }
+
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0000 0x04B0  
+    }
+}
+
+1 RT_MANIFEST "app.manifest"
